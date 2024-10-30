@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+:root {
+  --assest: #10b981;
+  --pri: #065f46;
+  --sec: #059669;
+  --warn: #be123c;
+  --text: #f3f4f6;
+}
+
+body {
+  background-color: var(--assest);
+  font-family: sans-serif;
+}
+
+.gContainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}

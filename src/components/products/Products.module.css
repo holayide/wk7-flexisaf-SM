@@ -1,0 +1,72 @@
+.mainWrapper {
+  background: var(--text);
+  padding: 4rem 0;
+}
+
+.products {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.innerContainer {
+  height: auto;
+  background: var(--assest);
+  transition: all 0.4s;
+}
+
+.innerContainer:hover {
+  transform: translateY(-0.5rem);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+
+.imageWrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.miniContainer {
+  padding: 1rem;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+
+.nameContainer h5 {
+  font-size: 0.8rem;
+}
+
+.nameContainer > div {
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+.nameContainer > div svg:hover {
+  fill: var(--text);
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
+}

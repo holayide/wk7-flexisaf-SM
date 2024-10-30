@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.5),
+      rgba(16, 185, 129, 0.5)
+    ),
+    url("../../assets/sneaker-bg.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: var(--text);
+}
+
+.wrapper > h2 span {
+  color: var(--pri);
+}
+
+.wrapper > a svg {
+  fill: var(--text);
+}
+
+.wrapper > a svg:hover {
+  fill: var(--pri);
+}
+
+.heroWrapper {
+  height: calc(100% - 70px);
+  position: relative;
+}
+
+.hero {
+  max-width: 500px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--text);
+}
+
+.hero > p {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+}
+
+.btn {
+  margin: 20px 0;
+  padding: 20px 60px;
+  font-size: 1rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+  background: var(--sec);
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background: var(--pri);
+}
+
+@media (max-width: 1000px) {
+  .hero > h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero > h1 {
+    font-size: 2.5rem;
+  }
+}
