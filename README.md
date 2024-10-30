@@ -25,3 +25,5 @@ I developed a website called OlaStore, which showcases a variety of shoes. Upon 
 4. Start the application with npm run dev.
 
 ## hosted link:
+
+[Click here to view live](https://boisterous-kulfi-d20f26.netlify.app)
