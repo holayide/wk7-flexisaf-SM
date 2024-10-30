@@ -1,5 +1,5 @@
 import { datas } from "../../lib/datas";
-import Product from "./product";
+import Product from "./Product";
 import styles from "./Products.module.css";
 
 // const
