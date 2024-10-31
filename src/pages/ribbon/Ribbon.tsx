@@ -9,10 +9,10 @@ export default function Ribbon() {
             <span>x</span>Fashion
           </li>
           <li className={styles.list}>
-            <span>x</span>OCCASIONALLY
+            <span>x</span>Occasionally
           </li>
           <li className={styles.list}>
-            <span>x</span>EVERYDAY
+            <span>x</span>Everyday
           </li>
         </ul>
       </div>

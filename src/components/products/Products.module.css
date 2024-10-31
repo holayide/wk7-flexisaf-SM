@@ -56,8 +56,17 @@
   transition: all 1s ease-in;
 }
 
+.nameContainer > div svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 .nameContainer > div svg:hover {
   fill: var(--text);
+}
+
+.price {
+  color: var(--text);
 }
 
 @media (max-width: 900px) {
@@ -68,5 +77,10 @@
 
   .imageWrapper {
     height: 200px;
+  }
+
+  .nameContainer > div svg {
+    width: 1.7rem;
+    height: 1.7rem;
   }
 }

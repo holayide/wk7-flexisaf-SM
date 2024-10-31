@@ -24,10 +24,9 @@ export default function Welcome() {
   return (
     <div className={styles.wrapper}>
       <h1>
-        Welcome <span>{name.toUpperCase()}</span>
+        <span>Welcome</span> {name.toUpperCase()}
       </h1>
       <p>to Ola's Store</p>
-      <div className={styles.celebrate}>🛒</div>
     </div>
   );
 }

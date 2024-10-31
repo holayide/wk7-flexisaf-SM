@@ -6,9 +6,7 @@ function Header() {
     <div className={styles.container}>
       <header className="gContainer">
         <div className={styles.wrapper}>
-          <h2>
-            <span>O</span>la_store
-          </h2>
+          <h2>Ola_store</h2>
           <Link to="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"

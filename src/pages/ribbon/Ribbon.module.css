@@ -17,3 +17,9 @@
   align-items: center;
   gap: 0.2rem;
 }
+
+@media (max-width: 500px) {
+  .ul {
+    justify-content: space-between;
+  }
+}
