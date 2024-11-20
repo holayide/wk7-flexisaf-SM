@@ -6,6 +6,8 @@ This week focused on managing state using tools like Context API and Redux Toolk
 
 I developed a website called OlaStore, which showcases a variety of shoes. Upon logging into the website, users fill out a form. After submission, a welcome page briefly appears, then automatically redirects to the landing page where products are displayed.
 
+# also showed react routing
+
 ### Current Features:
 
 - User login with username input
